@@ -1,0 +1,11 @@
+def to_jaden_case(string):
+    split_string = string.split(' ')
+    
+    capi_str = ""
+    
+    for i in split_string:
+        capi_str += i.capitalize() + " "
+        
+    capi_str = capi_str[0:-1]
+    
+    print (capi_str)
